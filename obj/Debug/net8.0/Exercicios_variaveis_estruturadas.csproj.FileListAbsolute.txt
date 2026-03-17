@@ -1,0 +1,15 @@
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\obj\Debug\net8.0\Exercicios_variaveis_estruturadas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\obj\Debug\net8.0\Exercicios_variaveis_estruturadas.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\obj\Debug\net8.0\Exercicios_variaveis_estruturadas.AssemblyInfo.cs
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\obj\Debug\net8.0\Exercicios_variaveis_estruturadas.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\obj\Debug\net8.0\Exercicios_variaveis_estruturadas.sourcelink.json
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\bin\Debug\net8.0\Exercicios_variaveis_estruturadas.exe
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\bin\Debug\net8.0\Exercicios_variaveis_estruturadas.deps.json
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\bin\Debug\net8.0\Exercicios_variaveis_estruturadas.runtimeconfig.json
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\bin\Debug\net8.0\Exercicios_variaveis_estruturadas.dll
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\bin\Debug\net8.0\Exercicios_variaveis_estruturadas.pdb
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\obj\Debug\net8.0\Exercicios_variaveis_estruturadas.dll
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\obj\Debug\net8.0\refint\Exercicios_variaveis_estruturadas.dll
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\obj\Debug\net8.0\Exercicios_variaveis_estruturadas.pdb
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\obj\Debug\net8.0\Exercicios_variaveis_estruturadas.genruntimeconfig.cache
+C:\Users\aluno\Desktop\Git\Exercicios_variaveis_estruturadas\obj\Debug\net8.0\ref\Exercicios_variaveis_estruturadas.dll
