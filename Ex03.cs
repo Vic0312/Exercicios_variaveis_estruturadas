@@ -1,18 +1,20 @@
-﻿// Exercicio 01
+// Exercicio 03
 using System;
 
 namespace Exercicios_variaveis_estruturadas
 {
-    class Ex01
+    class Ex03
     {
         /*static void Main(string[] args){
 
-            int n;
+            int n, menorAtual, p;
             
             Console.WriteLine("Digite o tamanho do vetor: ");
             n = Convert.ToInt32(Console.ReadLine());
 
             int[] vetor = new int[n];
+            menorAtual = 999999;
+            p = 0;
 
             for(int i=0; i < vetor.Length; i++)
             {
@@ -22,11 +24,18 @@ namespace Exercicios_variaveis_estruturadas
 
             Console.WriteLine("-----------");
 
-            for(int i = n - 1; i>=0; i--)
+            for(int i=0; i < vetor.Length; i++)
             {
-                Console.WriteLine("---");
-                Console.WriteLine(vetor[i]);
+                if(vetor[i] < menorAtual)
+                {
+                    menorAtual = vetor[i];
+                    p = i;
+                }
+                
             }
+
+            Console.WriteLine("Menor = " + menorAtual);
+            Console.WriteLine("Posição no vetor = " + p);
         }*/
     }
 }
@@ -37,10 +46,12 @@ TESTE DE MESA
 
  n  |vetor[i]|   Imprime
 ----------------------
- 6  |   1   |   6, 5, 4, 3, 2, 1
-    |   2   |
-    |   3   |
-    |   4   |
+ 8  |   7   |   Menor = 2
+    |   3   |   Posição no vetor = 5
+    |   9   |
     |   5   |
-    |   6   |
+    |   4   |
+    |   2   |
+    |   5   |
+    |   3   |
 */

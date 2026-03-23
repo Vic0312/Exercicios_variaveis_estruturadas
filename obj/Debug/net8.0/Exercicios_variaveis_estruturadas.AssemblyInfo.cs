@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exercicios_variaveis_estruturadas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1352465c9d9b203cdc21b6d6e64d0320004e894")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+973a90809b38a3433addf16ecc8abea70590c073")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exercicios_variaveis_estruturadas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exercicios_variaveis_estruturadas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

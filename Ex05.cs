@@ -1,20 +1,22 @@
-// Exercicio 02
+// Exercicio 05
 using System;
 
 namespace Exercicios_variaveis_estruturadas
 {
-    class Ex02
+    class Ex05
     {
         /*static void Main(string[] args){
 
-            int n, maiorAtual, p;
+            int n, maior, menor, mep, map;
             
             Console.WriteLine("Digite o tamanho do vetor: ");
             n = Convert.ToInt32(Console.ReadLine());
 
             int[] vetor = new int[n];
-            maiorAtual = -999999;
-            p = 0;
+            menor = 999999;
+            maior = -999999;
+            mep = 0; //posição do menor
+            map = 0; //posição do maior
 
             for(int i=0; i < vetor.Length; i++)
             {
@@ -26,16 +28,23 @@ namespace Exercicios_variaveis_estruturadas
 
             for(int i=0; i < vetor.Length; i++)
             {
-                if(vetor[i] > maiorAtual)
+                if(vetor[i] > maior)
                 {
-                    maiorAtual = vetor[i];
-                    p = i;
+                    maior = vetor[i];
+                    map = i;
+
                 }
-                
+                if(vetor[i] < menor)
+                {
+                    menor = vetor[i];
+                    mep = i;
+                }
             }
 
-            Console.WriteLine("Maior = " + maiorAtual);
-            Console.WriteLine("Posição no vetor = " + p);
+            Console.WriteLine("Menor: "+ menor);
+            Console.WriteLine("Maior: "+ maior);
+            Console.WriteLine("Posição do maior " + map);
+            Console.WriteLine("Posição do menor " + mep);
         }*/
     }
 }
@@ -46,11 +55,9 @@ TESTE DE MESA
 
  n  |vetor[i]|   Imprime
 ----------------------
- 7  |   1   |   Maior = 9
-    |   2   |   Posição no vetor = 2
+ 5  |   7   |   Maior = 9    Menor = 3
+    |   3   |   
     |   9   |
-    |   4   |
-    |   1   |
-    |   6   |
     |   5   |
+    |   4   |
 */

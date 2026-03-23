@@ -1,20 +1,22 @@
-// Exercicio 02
+// Exercicio 04
 using System;
 
 namespace Exercicios_variaveis_estruturadas
 {
-    class Ex02
+    class Ex04
     {
         /*static void Main(string[] args){
 
-            int n, maiorAtual, p;
+            int n, s_maior, p_maior, s, p;
             
             Console.WriteLine("Digite o tamanho do vetor: ");
             n = Convert.ToInt32(Console.ReadLine());
 
             int[] vetor = new int[n];
-            maiorAtual = -999999;
+            p_maior = -999999;
+            s_maior = -999999;
             p = 0;
+            s = 0;
 
             for(int i=0; i < vetor.Length; i++)
             {
@@ -26,16 +28,23 @@ namespace Exercicios_variaveis_estruturadas
 
             for(int i=0; i < vetor.Length; i++)
             {
-                if(vetor[i] > maiorAtual)
+                if(vetor[i] > p_maior)
                 {
-                    maiorAtual = vetor[i];
+                    s_maior = p_maior;
+                    s = p;
+                    p_maior = vetor[i];
                     p = i;
+
                 }
-                
+                else if(vetor[i] > s_maior && vetor[i] < p_maior)
+                {
+                    s_maior = vetor[i];
+                    s = i;
+                }
             }
 
-            Console.WriteLine("Maior = " + maiorAtual);
-            Console.WriteLine("Posição no vetor = " + p);
+            Console.WriteLine("Os dois maiores números são respectivamente " + p_maior + " e " + s_maior);
+            Console.WriteLine("Posição no vetor do primeiro é " + p + " e do segundo é "+ s);
         }*/
     }
 }
@@ -46,11 +55,9 @@ TESTE DE MESA
 
  n  |vetor[i]|   Imprime
 ----------------------
- 7  |   1   |   Maior = 9
-    |   2   |   Posição no vetor = 2
+ 5  |   7   |   Maior = 9  posição 2  
+    |   3   |   Segundo maior = 7  posição 0
     |   9   |
-    |   4   |
-    |   1   |
-    |   6   |
     |   5   |
+    |   4   |
 */
